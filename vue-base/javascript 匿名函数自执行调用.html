@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    (function(){
+        console.log(1);
+    })();
+    (function(){
+        console.log(2);
+    }());
+    !function(){
+        console.log(3);
+    }();
+    ~function(){
+        console.log(4);
+    }();
+    +function(){
+        console.log(5);
+    }();
+    -function(){
+        console.log(6);
+    }();
+    void function(){
+        console.log(7);
+    }();
+    new function () {
+        console.log(9);
+    }();
+    0, function () {
+        console.log(10);
+    }();
+    false || function () {
+        console.log(11);
+    }();
+    true && function () {
+        console.log(12);
+    }();
+    var i = function () {
+        console.log(13);
+    }();
+
+
+
+
+</script>
+</body>
+</html>
